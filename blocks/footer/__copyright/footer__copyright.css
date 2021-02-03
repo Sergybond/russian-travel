@@ -1,21 +1,18 @@
 .footer__copyright {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: right;
+  margin: 0;
+  align-self: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #fff;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
-    .footer__copyright {
-        margin-top: 46px;
-        margin-bottom: 24px;
-    }
-}
-
-@media (max-width: 374px) {
-    .footer__copyright {
-        margin-top: 46px;
-        margin-bottom: 24px;
-    }
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    align-self: flex-start;
+    margin-top: 48px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
 }
